@@ -17,29 +17,23 @@ pipeline {
         stage('Build') { 
     
             steps {
-
                 //    
-
             }
     
         }
 
-        stage('Sonarqube') {
+        stage('Test') {
 
             steps {
-
                 //   
-
             }
 
         }
     
-        stage('Test') { 
+        stage('Sonarqube') { 
     
             steps {
-
                 // 
-
             }
     
         }
@@ -47,9 +41,7 @@ pipeline {
         stage('Artifactory') {
 
             steps {
-
                 //   
-
             }
 
         }
